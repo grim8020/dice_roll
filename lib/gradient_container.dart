@@ -1,19 +1,10 @@
 import 'package:dice_roll/dice_roller.dart';
-import 'package:dice_roll/styled_text.dart';
 import 'package:flutter/material.dart';
-//import 'styled_text.dart';
+
 
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
 
-String dice1 = 'assets/images/dice-1.png';
-String dice2 = 'assets/images/dice-2.png';
-String dice3 = 'assets/images/dice-3.png';
-String dice4 = 'assets/images/dice-4.png';
-String dice5 = 'assets/images/dice-5.png';
-String dice6 = 'assets/images/dice-6.png';
-
-List<String> dice = [dice1, dice2, dice3, dice4, dice5, dice6];
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer(
