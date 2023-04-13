@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
+//better practice so that randomizer is not created every time the setState is run
 final randomizer = Random();
 
 class DiceRoller extends StatefulWidget {
